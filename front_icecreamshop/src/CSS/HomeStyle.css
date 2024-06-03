@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.containerHome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    background-image: linear-gradient(rgba(1, 0, 1, 0.2),rgba(1, 1, 1, 1)), url("C:\Users\User\Desktop\Project\IceCreamShop\IT32322024IceCreamshop\front_icecreamshop\src\Images\HomeBackG.png");
+    
+}
+.HomeImage{
+    width: 500px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+
+.rightContainer{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 15%;
+}
+.heading{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(235, 197, 72);
+}
+.tagline{
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.ButtonTry{
+    border: 10px darkgoldenrod;
+    padding: 10px 10px;
+    width: 150px;
+    background-color: darkgoldenrod;
+    border-radius: 15px;
+}

@@ -1,0 +1,59 @@
+header{
+    background-color: whitesmoke;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.listItem{
+    margin-left: 2em;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.activeItem{
+    color: red;
+    border-bottom: .1em double #fff;
+}
+.icons{
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 1em;
+    margin-left: 1.5em;
+}
+
+
+/* media queries */
+@media screen and (max-width:1100px){
+    .icons{
+        margin-left: 1em;
+    }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 13px;
+    }
+    .container-flex{
+        flex-direction: column;
+    }
+    .icons{
+        width: 150px;
+    }
+}
+@media screen and (max-width:568px){
+    html{
+        font-size: 11px;
+    }
+    
+}
