@@ -1,13 +1,27 @@
 import React from 'react';
 import HomeImage from '../Images/HomeImg.png';
 import '../CSS/HomeStyle.css';
+import Navigation from './Navigation';
+import Footer from './Footer';
+import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LoginPage from './LoginPage';
 
 function Home(){
     return(
         <>
+        <Navigation></Navigation>
         <div className='containerHome'>
             <div className='leftContainer'>
-            <img src={HomeImage} alt='HomeImage' className='HomeImage'></img>
+                <img src={HomeImage} alt='HomeImage' className='HomeImage'></img>
+                <div className='iconSocial'>
+                    <FacebookSharpIcon className='IconsHome'></FacebookSharpIcon>
+                    <TwitterIcon className='IconsHome'></TwitterIcon>
+                    <InstagramIcon className='IconsHome'></InstagramIcon>
+                    <LinkedInIcon className='IconsHome'></LinkedInIcon>
+                </div>
             </div>
 
             <div className='rightContainer'>
@@ -19,6 +33,7 @@ function Home(){
             </div>
             
         </div>
+        <Footer></Footer>
         </>
 
     )
