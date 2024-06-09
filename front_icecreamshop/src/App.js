@@ -1,15 +1,18 @@
 import React from 'react';  
+import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import './App.css';
-import {Switch, Route } from 'react-router-dom';
-import Home from './Component/Home';
+// import {Switch, Route } from 'react-router-dom';
+// import Home from './Component/Home';
 // import Navigation from './Component/Navigation';
 // import Footer from './Component/Footer';
 // import LoginPage from './Component/LoginPage';
+import MenuPage from './Component/MenuPage';
 
 function App() {
   return (
     <>
-      <Home></Home>
+      {/* <Home></Home> */}
+      <MenuPage></MenuPage>
 
     
 
