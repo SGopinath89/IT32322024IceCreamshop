@@ -6,14 +6,15 @@ import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import Navigation from './Component/Navigation';
 // import Footer from './Component/Footer';
 // import LoginPage from './Component/LoginPage';
-import MenuPage from './Component/MenuPage';
+//import MenuPage from './Component/MenuPage';
+import ContactPage from './Component/ContactPage';
 
 function App() {
   return (
     <>
-      {/* <Home></Home> */}
-      <MenuPage></MenuPage>
-
+      {/* <Home></Home>
+      <MenuPage></MenuPage> */}
+      <ContactPage></ContactPage>
     
 
 
