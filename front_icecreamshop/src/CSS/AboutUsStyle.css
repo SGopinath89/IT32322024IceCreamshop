@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.aboutusImg{
+    width: 100%;
+    height: 240px;
+    
+}
+
+.AboutContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headingAbout1{
+    color: rgb(169, 165, 45);
+    font-family: 'Comic Sans MS';
+}
+.aboutLeft{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.aboutRight{
+    margin-top: 50px;
+    margin-right: 130px;
+}
+.AboutImg2{
+    width: 650px;
+    height: 500px;
+    padding: 40px;
+}
+
+.AboutContainer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.aboutusLeft{
+    margin-left: 100px;
+}
+.aboutusImg3{
+    width: 600px;
+}
+
+.aboutusRight{
+    margin-right: 150px;
+    margin-left: 100px;
+}
+
+.headingAbout2{
+    font-family: 'Broadway';
+    color: rgb(169, 165, 45);
+}
+
+.btnAboutUs{
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(169, 165, 45);
+    color: white;
+}
