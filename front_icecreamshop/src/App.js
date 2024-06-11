@@ -1,28 +1,35 @@
 import React from 'react';  
-import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import './App.css';
-// import {Switch, Route } from 'react-router-dom';
-// import Home from './Component/Home';
+// import {BrowserRouter, Router, Route } from 'react-router-dom';
+import Home from './Component/Home';
 // import Navigation from './Component/Navigation';
 // import Footer from './Component/Footer';
 // import LoginPage from './Component/LoginPage';
-//import MenuPage from './Component/MenuPage';
-//import ContactPage from './Component/ContactPage';
-import AboutUsPage from './Component/AboutUsPage';
+// import MenuPage from './Component/MenuPage';
+// import ContactPage from './Component/ContactPage';
+// import AboutUsPage from './Component/AboutUsPage';
 
 function App() {
   return (
     <>
-      {/* <Home></Home>
-      <MenuPage></MenuPage> 
-      <ContactPage></ContactPage> */}
-      <AboutUsPage></AboutUsPage>
-    
+      <Home></Home>
+      {/* <MenuPage></MenuPage> 
+      <ContactPage></ContactPage> 
+      <AboutUsPage></AboutUsPage> */}
 
-
-      {/* <Switch>
-        <Route path="/" Component={Home} />
-      </Switch> */}
+      
+      {/* <div>
+      <BrowserRouter>
+        <Router>
+          <Route index element={<Home />} />
+          <Route path="/menu" element={<MenuPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/about" element={<AboutUsPage />} />
+        </Router>
+      </BrowserRouter>
+      </div> */}
+      
     </>
     
   );

@@ -7,7 +7,7 @@ import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import LoginPage from './LoginPage';
+//import LoginPage from './LoginPage';
 
 function Home(){
     return(
@@ -25,7 +25,7 @@ function Home(){
             </div>
 
             <div className='rightContainer'>
-                <h1 className='heading'>Real Ice Cream <br/> for <br/> Real Ice Cream Lovers</h1>
+                <h2 className='heading'>Real Ice Cream <br/> for <br/> Real Ice Cream Lovers</h2>
                 <br/>
                 <p className='tagline'>All you need is Love & Ice Cream</p>
                 <br/>

@@ -1,5 +1,5 @@
-.container{
-    background-color: whitesmoke;
+.containerFoot{
+    background-color: rgba(178, 164, 164, 0.777);
     
 }
 
@@ -14,8 +14,6 @@
 }
 
 .logo{
-    justify-content: center;
-    align-items: center;
     width: 70px;
     height: 70px;
     
