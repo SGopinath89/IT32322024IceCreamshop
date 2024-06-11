@@ -8,6 +8,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 //import LoginPage from './LoginPage';
+import { Link } from 'react-router-dom';
 
 function Home(){
     return(
@@ -29,7 +30,7 @@ function Home(){
                 <br/>
                 <p className='tagline'>All you need is Love & Ice Cream</p>
                 <br/>
-                <button className='ButtonTry'><b>Try Now</b></button>
+                <Link to='/login'><button className='ButtonTry'><b>Try Now</b></button></Link>
             </div>
             
         </div>

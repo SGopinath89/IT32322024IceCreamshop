@@ -17,7 +17,7 @@ function ContactPage(){
         <div className='containerContact'>
             <div className='leftsideDiv'>
                 <h3>Have a question?</h3>
-                <p>If you have any question, share it with Us, Enjoy your life and Taste Ice Iceam...</p>
+                <p>If you have any question, share it with Us, Enjoy your life and Taste Ice Iceam...</p><br />
                 <label>FirstName</label><br/>
                 <input type='text' placeholder='Enter your FirstName' className='inputItems' /><br/><br />
                 <label>LastName</label><br />
@@ -33,12 +33,13 @@ function ContactPage(){
             <div className='rightsideDiv'>
                 <h3>Get in Touch</h3>
                 <p>We love to hear from you. Our friendly team is always here to chat.</p>
-                
+                <br />
+
                 <HomeIcon></HomeIcon>&nbsp;
                 <b>Address</b><br />123, Mannar rd, Vavuniya
                 <br /><br />
                 <PermPhoneMsgIcon></PermPhoneMsgIcon>&nbsp;
-                <b>Phone</b><br />+9123456789
+                <b>Phone</b><br />+94 70 123 1234
                 <br /><br />
                 <EmailIcon></EmailIcon>&nbsp;
                 <b>Email</b><br />yarlicecream@vaugamil.com

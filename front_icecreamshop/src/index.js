@@ -4,13 +4,39 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './App.css'
-import { BrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
+import MenuPage from './Component/MenuPage';
+import ContactPage from './Component/ContactPage';
+import AboutUsPage from './Component/AboutUsPage';
+import LoginPage from './Component/LoginPage';
+
+
+const router= createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "menu",
+    element: <MenuPage />,
+  },
+  {
+    path: "contact",
+    element: <ContactPage />,
+  },
+  {
+    path: "about",
+    element: <AboutUsPage />,
+  },
+  {
+    path: "login",
+    element: <LoginPage />,
+  },
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <RouterProvider router={router} />
 );
 
 

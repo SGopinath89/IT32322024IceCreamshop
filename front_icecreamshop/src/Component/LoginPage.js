@@ -1,7 +1,7 @@
 import React from 'react';
 import '../CSS/LoginPageStyle.css';
 import Navigation from './Navigation';
-// import Footer from './Footer';
+import Footer from './Footer';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LockIcon from '@mui/icons-material/Lock';
 import LoginImg from '../Images/LoginImg.png';
@@ -12,7 +12,7 @@ function LoginPage(){
         <Navigation></Navigation>
         <div className='ContainerLogin'>
             <div className='main1'>
-                <h1 className='headingLogin'>Best Prices We Offer for<br/> Ice Cream <br /> Lovers</h1>
+                <h2 className='headingLogin'>Best Prices We Offer for<br/> Ice Cream <br /> Lovers</h2>
                 <br />
                 <div className='inputs'>
                     <AccountCircleIcon className='inputsIcon' fontSize="large"></AccountCircleIcon>&nbsp;
@@ -35,7 +35,7 @@ function LoginPage(){
         </div>
 
 
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
         
         </>
     )

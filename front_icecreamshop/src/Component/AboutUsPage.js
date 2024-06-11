@@ -41,12 +41,12 @@ function AboutUsPage(){
                 <p>A range for your regular refreshment, these flavours are budget friendly and mental for 
                     your daily delight!
                 </p>
-
+                <br />
                 <h2 className='headingAbout2'>Premium</h2>
                 <p>Flavour that's not too dark and not too light. It's the perfect amount of 
                     chocolate to brightenup your day!
                 </p>
-
+                <br />
                 <h2 className='headingAbout2'>Black</h2>
                 <p>We promise you that the delicious scoops on our menu will be anything but plain and simple.</p>
 
