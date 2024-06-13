@@ -17,6 +17,7 @@ function Home(){
         <div className='containerHome'>
             <div className='leftContainer'>
                 <img src={HomeImage} alt='HomeImage' className='HomeImage'></img>
+                <br /><br />
                 <div className='iconSocial'>
                     <FacebookSharpIcon className='IconsHome'></FacebookSharpIcon>
                     <TwitterIcon className='IconsHome'></TwitterIcon>
