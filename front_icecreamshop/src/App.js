@@ -9,17 +9,19 @@ import Home from './Component/Home';
 // import MenuPage from './Component/MenuPage';
 // import ContactPage from './Component/ContactPage';
 // import AboutUsPage from './Component/AboutUsPage';
-import AdminHomePage from './Component/AdminHomePage';
+// import AdminHomePage from './Component/AdminHomePage';
+// import SignInPage from './Component'
 
 function App() {
   return (
     <>
-      {/* <Home></Home> */}
+    {/* <SignInPage></SignInPage> */}
+      <Home></Home>
       {/* <MenuPage></MenuPage> 
       <ContactPage></ContactPage> 
       <AboutUsPage></AboutUsPage> */}
 
-        <AdminHomePage></AdminHomePage>
+        {/* <AdminHomePage></AdminHomePage> */}
       
       {/* <div>
       <BrowserRouter>

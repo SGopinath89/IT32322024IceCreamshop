@@ -1,0 +1,24 @@
+.LoginImgSignIn{
+    width: 550px;
+    height: 500px;
+}
+
+.main2SignIn{
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+.main1SignIn{
+    margin-left: 18%;
+}
+
+.ContainerSignIn{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.HeadingSignIn{
+    font-size: 40px;
+    color: #B8741A;
+}
