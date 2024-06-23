@@ -28,7 +28,7 @@ function LoginPage(){
                 <br/>
                 <Link to='/LoginAdministrator' style={{textDecoration:'none'}}>Login as an Administrator</Link>
                 <br/><br/>
-                <p>Create an account? <a href='#' className='signinlink'>Sign In</a></p>
+                <p>Create an account? <Link to="/SignIn" className='SignInLink' style={{textDecoration:'none'}}>Sign In</Link></p>
             </div>
 
             <div className='main2'>

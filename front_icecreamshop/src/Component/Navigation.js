@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../Images/logo.png';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import '../CSS/NavStyle.css';
@@ -24,7 +24,7 @@ function Navigation(){
                 </nav>
                 <div className='container-icons'>
                     <PersonIcon className='icons'/>
-                    <ShoppingCartIcon className='icons'/>
+                    <Link to="/cart"><ShoppingCartIcon className='icons'/></Link>
                 </div>
             </div>
 

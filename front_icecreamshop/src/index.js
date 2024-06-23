@@ -10,6 +10,8 @@ import ContactPage from './Component/ContactPage';
 import AboutUsPage from './Component/AboutUsPage';
 import LoginPage from './Component/LoginPage';
 import LoginAdministrator from './Component/LoginAdministrator';
+import Cart from './Component/Cart';
+import SignInPage from './Component/SignInPage';
 
 
 const router= createBrowserRouter([
@@ -36,6 +38,14 @@ const router= createBrowserRouter([
   {
     path: "LoginAdministrator",
     element: <LoginAdministrator />,
+  },
+  {
+    path: "cart",
+    element: <Cart />,
+  },
+  {
+    path: "SignIn",
+    element: <SignInPage />,
   }
 ])
 
