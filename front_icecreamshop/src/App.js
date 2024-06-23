@@ -9,15 +9,17 @@ import Home from './Component/Home';
 // import MenuPage from './Component/MenuPage';
 // import ContactPage from './Component/ContactPage';
 // import AboutUsPage from './Component/AboutUsPage';
+import AdminHomePage from './Component/AdminHomePage';
 
 function App() {
   return (
     <>
-      <Home></Home>
+      {/* <Home></Home> */}
       {/* <MenuPage></MenuPage> 
       <ContactPage></ContactPage> 
       <AboutUsPage></AboutUsPage> */}
 
+        <AdminHomePage></AdminHomePage>
       
       {/* <div>
       <BrowserRouter>

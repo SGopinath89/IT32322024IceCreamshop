@@ -13,8 +13,8 @@ function LoginPage(){
         <Navigation></Navigation>
         <div className='ContainerLogin'>
             <div className='main1'>
-                <h2 className='headingLogin'>Best Prices We Offer for<br/> Ice Cream <br /> Lovers</h2>
-                <br />
+                <h2 className='headingLogin'>Administrator Login</h2>
+                <br /><br />
                 <div className='inputs'>
                     <AccountCircleIcon className='inputsIcon' fontSize="large"></AccountCircleIcon>&nbsp;
                     <input type='text' placeholder='Username' className='inputsType' />
@@ -26,9 +26,7 @@ function LoginPage(){
                 <br /><br />
                 <button className='loginButton'><b>LOGIN</b></button>
                 <br/>
-                <Link to='/LoginAdministrator' style={{textDecoration:'none'}}>Login as an Administrator</Link>
-                <br/><br/>
-                <p>Create an account? <a href='#' className='signinlink'>Sign In</a></p>
+            
             </div>
 
             <div className='main2'>
