@@ -15,10 +15,11 @@ function LoginPage(){
     const [data, setData] = useState([]);
   const [ttmail, setTmail] = useState('');
   const [tpwd, setTpwd] = useState('');
+  const [name, setName] = useState(' ');
+  const [email, setEmail] = useState(' ');
+  const [pwd, setPwd] = useState(' ');
   const [check, setCheck] = useState(false);
-
-  const [encryptedPassword, setEncryptedPassword] = useState('');
-
+const [encryptedPassword, setEncryptedPassword] = useState('');
   const show = async (e) => {
     e.preventDefault();
     try {
@@ -30,8 +31,26 @@ function LoginPage(){
         const user = res.data.find((e) => e.email === ttmail);
         if (user) {
           setEncryptedPassword(user.encryptedPassword);
+          setName(user.name);
+            setEmail(user.email);
+            setPwd(user.encryptedPassword);
+            try{
+                setTimeout(() => {
+                     axios.post("http://localhost:5000/logins", {
+                        name,
+                        email,
+                       pwd,
+                   })
+                  }, 200);
+                
+            }
+            catch (error) {
+                console.log(error);
+                alert('upload Error');
+              }
           const passwordMatch = bcrypt.compareSync(tpwd, user.encryptedPassword);
           setCheck(passwordMatch);
+      
           if (!passwordMatch) {
             alert('Invalid Password!!!');
           }
@@ -43,6 +62,7 @@ function LoginPage(){
       console.log(error);
       alert('An error occurred while fetching data.');
     }
+   
   };
     return(
         <>
